@@ -1,0 +1,153 @@
+Script started on 2023-07-18 01:31:34+05:30 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="168" LINES="35"]
+]777;notify;Command completed;cat sample1\]777;precmd\]0;3-csm-a@CsmLab-01-53:~\]7;file://CsmLab-01-53/home/3-csm-a\[?2004h[3-csm-a@CsmLab-01-53 ~]$ cat sample1 1> sample1[1Pecho $ shell[2P$shellSHELLman whoami[K[1Pwhoami[Khistoryscript week1[5Phistory
+[?2004l]777;preexec\    1  cp /opt/backup/csm.txt .
+    2  gsettings set org.gnome.desktop.background picture-uri /usr/share/backgrounds/mybacks/3-csm-a.jpg
+    3  pwd
+    4  exit
+    5  script week1
+    6  clear
+    7  script week1
+    8  history
+    9  who
+   10  whoami
+   11  man who
+   12  man whoami
+   13  echo$SHELL
+   14  echo$shell
+   15  echo $ shell
+   16  cat > sample1
+   17  cat sample 1
+   18  cat sample1
+   19  history
+]777;notify;Command completed;history\]777;precmd\]0;3-csm-a@CsmLab-01-53:~\]7;file://CsmLab-01-53/home/3-csm-a\[?2004h[3-csm-a@CsmLab-01-53 ~]$ historycat sample1 1> sample1[1Pecho $ shell[2P$shellSHELLman whoami[K[1Pwhoami[Khistoryscript week1[5Phistory[4Pwho
+[?2004l]777;preexec\3-csm-a  tty2         2023-07-18 00:30 (tty2)
+]777;notify;Command completed;who\]777;precmd\]0;3-csm-a@CsmLab-01-53:~\]7;file://CsmLab-01-53/home/3-csm-a\[?2004h[3-csm-a@CsmLab-01-53 ~]$ whohistorycat sample1 1> sample1[1Pecho $ shell[2P$shellSHELLman whoami[Kami[K[1Pwhoami
+[?2004l]777;preexec\3-csm-a
+]777;notify;Command completed;whoami\]777;precmd\]0;3-csm-a@CsmLab-01-53:~\]7;file://CsmLab-01-53/home/3-csm-a\[?2004h[3-csm-a@CsmLab-01-53 ~]$ whoami[Khistorycat sample1 1> sample1[1Pecho $ shell[2P$shellSHELLman whoami[K
+[?2004l]777;preexec\[?1049h[22;0;0t[?1h=WHO(1)                                                                     User Commands                                                                     WHO(1)[m
+[m
+[1mNAME[0m[m
+       who - show who is logged on[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mwho [22m[[4mOPTION[24m]... [ [4mFILE[24m [4m|[24m [4mARG1[24m [4mARG2[24m ][m
+[m
+[1mDESCRIPTION[0m[m
+       Print information about users who are currently logged in.[m
+[m
+       [1m-a[22m, [1m--all[0m[m
+              same as [1m-b -d --login -p -r -t -T -u[0m[m
+[m
+       [1m-b[22m, [1m--boot[0m[m
+              time of last system boot[m
+[m
+       [1m-d[22m, [1m--dead[0m[m
+              print dead processes[m
+[m
+       [1m-H[22m, [1m--heading[0m[m
+              print line of column headings[m
+[m
+       [1m-l[22m, [1m--login[0m[m
+              print system login processes[m
+[m
+       [1m--lookup[0m[m
+              attempt to canonicalize hostnames via DNS[m
+[m
+       [1m-m     [22monly hostname and user associated with stdin[m
+[m
+       [1m-p[22m, [1m--process[0m[m
+              print active processes spawned by init[m
+[m
+[7m Manual page who(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]777;notify;Command completed;man who\]777;precmd\]0;3-csm-a@CsmLab-01-53:~\]7;file://CsmLab-01-53/home/3-csm-a\[?2004h[3-csm-a@CsmLab-01-53 ~]$ man who[1Pwhoami[Khistorycat sample1 1> sample1[1Pecho $ shell[2P$shellSHELLman whoami
+[?2004l]777;preexec\[?1049h[22;0;0t[?1h=WHOAMI(1)                                                                  User Commands                                                                  WHOAMI(1)[m
+[m
+[1mNAME[0m[m
+       whoami - print effective user name[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mwhoami [22m[[4mOPTION[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       Print the user name associated with the current effective user ID.  Same as id [1m-un[22m.[m
+[m
+       [1m--help [22mdisplay this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+[1mAUTHOR[0m[m
+       Written by Richard Mlynarik.[m
+[m
+[1mREPORTING BUGS[0m[m
+       GNU coreutils online help: <https://www.gnu.org/software/coreutils/>[m
+       Report any translation bugs to <https://translationproject.org/team/>[m
+[m
+[1mCOPYRIGHT[0m[m
+       Copyright © 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.[m
+       This is free software: you are free to change and redistribute it.  There is NO WARRANTY, to the extent permitted by law.[m
+[m
+[1mSEE ALSO[0m[m
+       Full documentation <https://www.gnu.org/software/coreutils/whoami>[m
+       or available locally via: info '(coreutils) whoami invocation'[m
+[m
+GNU coreutils 9.1                                                             May 2023                                                                    WHOAMI(1)[m
+[7m Manual page whoami(1) line 1/32 (END) (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]777;notify;Command completed;man whoami\]777;precmd\]0;3-csm-a@CsmLab-01-53:~\]7;file://CsmLab-01-53/home/3-csm-a\[?2004h[3-csm-a@CsmLab-01-53 ~]$ man whoami[K[1Pwhoami[Khistorycat sample1 1> sample1[1Pecho $ shell[2P$shell $ shellcat > sample1[1Pecho $ shell[2P$shell $ shell
+[?2004l]777;preexec\$ shell
+]777;notify;Command completed;echo $ shell\]777;precmd\]0;3-csm-a@CsmLab-01-53:~\]7;file://CsmLab-01-53/home/3-csm-a\[?2004h[3-csm-a@CsmLab-01-53 ~]$ echo $ shell[2Pman whoami[K[1Pwhoami[Khistorycat sample1 1> sample1[1Psample 1> sample1
+[?2004l]777;preexec\hello]777;notify;Command completed;cat > sample1\]777;precmd\]0;3-csm-a@CsmLab-01-53:~\]7;file://CsmLab-01-53/home/3-csm-a\[?2004h[3-csm-a@CsmLab-01-53 ~]$ cat > sample1[1Pecho $ shell[2Pman whoamiecho $ shellcat > sample1[1Pecho $ shellcat > sample1[Kcat > sample1[1Pecho $ shell[2Pman whoamiecho $ shellcat > sample1[Kcat sample1
+[?2004l]777;preexec\hello]777;notify;Command completed;cat sample1\]777;precmd\]0;3-csm-a@CsmLab-01-53:~\]7;file://CsmLab-01-53/home/3-csm-a\[?2004h[3-csm-a@CsmLab-01-53 ~]$ cat sample1 > sample2
+[?2004l]777;preexec\]777;notify;Command completed;cat sample1 > sample2\]777;precmd\]0;3-csm-a@CsmLab-01-53:~\]7;file://CsmLab-01-53/home/3-csm-a\[?2004h[3-csm-a@CsmLab-01-53 ~]$ cat sample2
+[?2004l]777;preexec\hello]777;notify;Command completed;cat sample2\]777;precmd\]0;3-csm-a@CsmLab-01-53:~\]7;file://CsmLab-01-53/home/3-csm-a\[?2004h[3-csm-a@CsmLab-01-53 ~]$ ls
+[?2004l]777;preexec\[0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mpublic_html[0m  [01;34mR[0m  sample1  sample2  [01;34msnap[0m  [01;34mTemplates[0m  [01;34mtests[0m  [01;34mVideos[0m  week1  [01;34mwekafiles[0m
+]777;notify;Command completed;ls\]777;precmd\]0;3-csm-a@CsmLab-01-53:~\]7;file://CsmLab-01-53/home/3-csm-a\[?2004h[3-csm-a@CsmLab-01-53 ~]$ ls -l
+[?2004l]777;preexec\total 64
+drwxr-xr-x 2 3-csm-a student 4096 Apr 20 15:57 [0m[01;34mDesktop[0m
+drwxr-xr-x 2 3-csm-a student 4096 Apr 20 15:50 [01;34mDocuments[0m
+drwxr-xr-x 2 3-csm-a student 4096 Apr 20 16:03 [01;34mDownloads[0m
+drwxr-xr-x 2 3-csm-a student 4096 Apr 20 16:04 [01;34mMusic[0m
+drwxr-xr-x 3 3-csm-a student 4096 Jul 18 01:25 [01;34mPictures[0m
+drwxr-xr-x 2 3-csm-a student 4096 Apr 20 15:54 [01;34mPublic[0m
+drwxr-xr-x 2 3-csm-a student 4096 Apr 20 15:54 [01;34mpublic_html[0m
+drwxr-xr-x 3 3-csm-a student 4096 Apr 20 15:50 [01;34mR[0m
+-rw-r--r-- 1 3-csm-a student    5 Jul 18 01:32 sample1
+-rw-r--r-- 1 3-csm-a student    5 Jul 18 01:33 sample2
+drwx------ 3 3-csm-a student 4096 Apr 20 15:54 [01;34msnap[0m
+drwxr-xr-x 2 3-csm-a student 4096 Apr 20 16:00 [01;34mTemplates[0m
+drwxr-xr-x 3 3-csm-a student 4096 Apr 20 15:50 [01;34mtests[0m
+drwxr-xr-x 2 3-csm-a student 4096 Apr 20 16:04 [01;34mVideos[0m
+-rw-r--r-- 1 3-csm-a student 4096 Jul 18 01:32 week1
+drwxr-xr-x 7 3-csm-a student 4096 Apr 20 16:04 [01;34mwekafiles[0m
+]777;notify;Command completed;ls -l\]777;precmd\]0;3-csm-a@CsmLab-01-53:~\]7;file://CsmLab-01-53/home/3-csm-a\[?2004h[3-csm-a@CsmLab-01-53 ~]$ ls -a
+[?2004l]777;preexec\[0m[01;34m.[0m              .bash_profile  [01;34m.config[0m    [01;34mDownloads[0m     .lesshst  [01;34mMusic[0m               [01;34mPictures[0m     [01;34mR[0m          [01;34msnap[0m         [01;34mtests[0m        [01;34m.wdm[0m       .xsel.log
+[01;34m..[0m             .bashrc        .curlrc    [01;34m.emacs.d[0m      [01;34m.local[0m    .node_repl_history  [01;34m.pki[0m         .Rhistory  [01;34m.sqlcl[0m       [01;34mVideos[0m       week1
+.bash_history  [01;34m.cache[0m         [01;34mDesktop[0m    .irb_history  [01;34m.mongodb[0m  [01;34m.npm[0m                [01;34mPublic[0m       sample1    [01;34m.subversion[0m  [01;34m.vscode[0m      [01;34mwekafiles[0m
+.bash_logout   [01;34m.conda[0m         [01;34mDocuments[0m  [01;34m.java[0m         [01;34m.mozilla[0m  .npmrc              [01;34mpublic_html[0m  sample2    [01;34mTemplates[0m    [01;34m.vscode-cli[0m  .wgetrc
+]777;notify;Command completed;ls -a\]777;precmd\]0;3-csm-a@CsmLab-01-53:~\]7;file://CsmLab-01-53/home/3-csm-a\[?2004h[3-csm-a@CsmLab-01-53 ~]$  [Kecho ""h"e"e"l"o"[1P"[1P"[1P"l"l"o" " " " "h"i"
+[?2004l]777;preexec\hello    hi
+]777;notify;Command completed;echo "hello    hi"\]777;precmd\]0;3-csm-a@CsmLab-01-53:~\]7;file://CsmLab-01-53/home/3-csm-a\[?2004h[3-csm-a@CsmLab-01-53 ~]$ echo "hello    hi"[K[1P
+[?2004l]777;preexec\hello hi
+]777;notify;Command completed;echo hello    hi\]777;precmd\]0;3-csm-a@CsmLab-01-53:~\]7;file://CsmLab-01-53/home/3-csm-a\[?2004h[3-csm-a@CsmLab-01-53 ~]$ touch file 1[K[K1
+[?2004l]777;preexec\]777;notify;Command completed;touch file1\]777;precmd\]0;3-csm-a@CsmLab-01-53:~\]7;file://CsmLab-01-53/home/3-csm-a\[?2004h[3-csm-a@CsmLab-01-53 ~]$ bc
+[?2004l]777;preexec\bc 1.07.1
+Copyright 1991-1994, 1997, 1998, 2000, 2004, 2006, 2008, 2012-2017 Free Software Foundation, Inc.
+This is free software with ABSOLUTELY NO WARRANTY.
+For details type `warranty'. 
+[?2004h2+c[K3
+[?2004l5
+[?2004h2334+2345
+[?2004l4679
+[?2004h^C[?2004l
+(interrupt) Exiting bc.
+ ]777;notify;Command completed;bc\]777;precmd\]0;3-csm-a@CsmLab-01-53:~\]7;file://CsmLab-01-53/home/3-csm-a\[?2004h[3-csm-a@CsmLab-01-53 ~]$ pwd
+[?2004l]777;preexec\/home/3-csm-a
+]777;notify;Command completed;pwd\]777;precmd\]0;3-csm-a@CsmLab-01-53:~\]7;file://CsmLab-01-53/home/3-csm-a\[?2004h[3-csm-a@CsmLab-01-53 ~]$ mkdier[K[Kr sample[K[K[K[K[Kamplw[Ke_dir
+[?2004l]777;preexec\]777;notify;Command completed;mkdir sample_dir\]777;precmd\]0;3-csm-a@CsmLab-01-53:~\]7;file://CsmLab-01-53/home/3-csm-a\[?2004h[3-csm-a@CsmLab-01-53 ~]$ rm [Kdir sample_dir
+[?2004l]777;preexec\]777;notify;Command completed;rmdir sample_dir\]777;precmd\]0;3-csm-a@CsmLab-01-53:~\]7;file://CsmLab-01-53/home/3-csm-a\[?2004h[3-csm-a@CsmLab-01-53 ~]$ cp sanp[K[Kmple1 /home/3-csm-a/Downloads
+[?2004l]777;preexec\]777;notify;Command completed;cp sample1 /home/3-csm-a/Downloads\]777;precmd\]0;3-csm-a@CsmLab-01-53:~\]7;file://CsmLab-01-53/home/3-csm-a\[?2004h[3-csm-a@CsmLab-01-53 ~]$ cp sample1 /home/3-csm-a/Downloads[1P[1P[1@m[1@v[C[C[C[C[C[C[C[C[1P /home/3-csm-a/Downloads2 /home/3-csm-a/Downloads
+[?2004l]777;preexec\]777;notify;Command completed;mv sample2 /home/3-csm-a/Downloads\]777;precmd\]0;3-csm-a@CsmLab-01-53:~\]7;file://CsmLab-01-53/home/3-csm-a\[?2004h[3-csm-a@CsmLab-01-53 ~]$ mv sample2 /home/3-csm-a/Downloads[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kmv sample2 /home/3-csm-a/Downloads[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[3-csm-a@CsmLab-01-53 ~]$ cd Downloads
+[?2004l]777;preexec\]777;notify;Command completed;cd Downloads\]777;precmd\]0;3-csm-a@CsmLab-01-53:~/Downloads\]7;file://CsmLab-01-53/home/3-csm-a/Downloads\[?2004h[3-csm-a@CsmLab-01-53 Downloads]$ ls
+[?2004l]777;preexec\sample1  sample2
+]777;notify;Command completed;ls\]777;precmd\]0;3-csm-a@CsmLab-01-53:~/Downloads\]7;file://CsmLab-01-53/home/3-csm-a/Downloads\[?2004h[3-csm-a@CsmLab-01-53 Downloads]$ exit
+[?2004l]777;preexec\exit
+
+Script done on 2023-07-18 01:48:26+05:30 [COMMAND_EXIT_CODE="0"]
